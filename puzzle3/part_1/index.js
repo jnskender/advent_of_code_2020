@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.readFile('puzzle3.txt', 'utf8', (error, data) => {
+fs.readFile('puzzle.txt', 'utf8', (error, data) => {
   if (error) throw error;
   const splitted = data.toString().split("\n"); //grab individual lines
   let treesEncountered = 0;
